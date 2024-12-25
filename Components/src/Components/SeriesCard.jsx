@@ -2,7 +2,7 @@
 export const SeriesCard = ({data}) => {
    // console.log(props);
   // eslint-disable-next-line react/prop-types
-  const { id, img_url, name, rating, description, cast, genre, watch_url} = data;
+  const {  img_url, name, rating, description, cast, genre, watch_url} = data;
   return (
 
           <li>
