@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "name": "Queen of Tears",
+      "rating": 8.2,
+      "description": "A story about navigating tense relationships.",
+      "genre": "RomCom",
+      "cast": "Actor A, Actor B",
+      "img_url": "/image1.jpg",
+      "watch_url": "https://example.com/watch/queen-of-tears"
+    },
+    {
+      "id": 2,
+      "name": "Jungle Run",
+      "rating": 7.5,
+      "description": "Another exciting series.",
+      "genre": "Drama",
+      "cast": "Actor C, Actor D",
+      "img_url": "/jungle run image3.jpg",
+      "watch_url": "https://example.com/watch/series-2"
+    },
+    {
+        "id": 2,
+        "name": "Khaufnaak Rooh",
+        "rating": 7.5,
+        "description": "Another exciting series.",
+        "genre": "Drama",
+        "cast": "Actor C, Actor D",
+        "img_url": "/khaufnaak rooh image5.jpg",
+        "watch_url": "https://example.com/watch/series-2"
+      },
+      {
+        "id": 2,
+        "name": "Smile",
+        "rating": 7.5,
+        "description": "Another exciting series.",
+        "genre": "Drama",
+        "cast": "Actor C, Actor D",
+        "img_url": "/smile image2.jpg",
+        "watch_url": "https://example.com/watch/series-2"
+      }
+  ]
+  
