@@ -78,48 +78,18 @@
 
 
   import seriesData from "../api/seriesData.json";
+  import { SeriesCard } from "./SeriesCard";
 
   const NetflixSeries = () => {
+    
     return (
-      <ul     
-      style={{ listStyleType: "none", padding: 0 }}>
-        {seriesData.map((series, index) => (
-          <li
-            key={index}
-            style={{
-              border: "1px solid #ccc",
-              padding: "16px",
-              margin: "16px 0",
-              borderRadius: "8px",
-            }}
-          >
-            {/* Image */}
-            <div>
-              <img
-                src={series.img_url}
-                alt={series.name}
-                width="60%"
-                height="60%"
-                style={{ objectFit: "cover" }}
-              />
-            </div>
-  
-            {/* Series Details */}
-            <h2>Name: {series.name}</h2>
-            <h3>Rating: {series.rating}</h3>
-            <p>Summary: {series.description}</p>
-            <p>Genre: {series.genre}</p>
-            <p>Cast: {series.cast}</p>
-  
-            {/* Watch Button */}
-            <a href={series.watch_url} target="_blank" rel="noopener noreferrer">
-              <button>Watch Now</button>
-            </a>
-          </li>
-          
-        ))}
+     <ul>
+      {seriesData.map ((curElem) => (
+        <SeriesCard key={curElem.id} data = {curElem} />
+      ))}
       </ul>
-    );
+      );
+    
   };
   
   export default NetflixSeries;

@@ -3,9 +3,9 @@
       "id": 1,
       "name": "Queen of Tears",
       "rating": 8.2,
-      "description": "A story about navigating tense relationships.",
+      "description": "A story about Queen , who has beautiful girl.",
       "genre": "RomCom",
-      "cast": "Actor A, Actor B",
+      "cast": "Priyalion , Suriyan si kerry",
       "img_url": "/image1.jpg",
       "watch_url": "https://example.com/watch/queen-of-tears"
     },
@@ -13,9 +13,9 @@
       "id": 2,
       "name": "Jungle Run",
       "rating": 7.5,
-      "description": "Another exciting series.",
-      "genre": "Drama",
-      "cast": "Actor C, Actor D",
+      "description": "A story of man how to fight with snake  and save life.",
+      "genre": "Story of Leeon chan un biong",
+      "cast": "Karlio un be nikln ,Sifing yaon",
       "img_url": "/jungle run image3.jpg",
       "watch_url": "https://example.com/watch/series-2"
     },
@@ -23,9 +23,9 @@
         "id": 2,
         "name": "Khaufnaak Rooh",
         "rating": 7.5,
-        "description": "Another exciting series.",
-        "genre": "Drama",
-        "cast": "Actor C, Actor D",
+        "description": "A story of two girl relationship.",
+        "genre": "Romantic and Dramatics",
+        "cast": "Leon un be jal , Rio nao sifing",
         "img_url": "/khaufnaak rooh image5.jpg",
         "watch_url": "https://example.com/watch/series-2"
       },
@@ -33,10 +33,40 @@
         "id": 2,
         "name": "Smile",
         "rating": 7.5,
-        "description": "Another exciting series.",
-        "genre": "Drama",
-        "cast": "Actor C, Actor D",
+        "description": "A story about navigating tense relationships.",
+        "genre": "Drama and Love story",
+        "cast": "jusuff si kolsko , kelliya un diol",
         "img_url": "/smile image2.jpg",
+        "watch_url": "https://example.com/watch/series-2"
+      },
+      {
+        "id": 2,
+        "name": "Blood Mary",
+        "rating": 7.5,
+        "description": "A story of two girl , which one make monester.",
+        "genre": "Horror and Drama",
+        "cast": "Suffia qurodila, kolila ji monta",
+        "img_url": "/Blood Mary image4.jpg",
+        "watch_url": "https://example.com/watch/series-2"
+      },
+      {
+        "id": 2,
+        "name": "Munja",
+        "rating": 7.5,
+        "description": "Very dangerous fil and its like.",
+        "genre": "Horror and Romantic",
+        "cast": "Raiysa raong , urila deo lan",
+        "img_url": "/munja image 7.jpg",
+        "watch_url": "https://example.com/watch/series-2"
+      },
+      {
+        "id": 2,
+        "name": "Night of the Hunted",
+        "rating": 7.5,
+        "description": "Mostely people like this.",
+        "genre": "Drama amd Horror",
+        "cast": "Actor johndino loan, suffinaliya",
+        "img_url": "/night of the hunted image 6.jpg",
         "watch_url": "https://example.com/watch/series-2"
       }
   ]
