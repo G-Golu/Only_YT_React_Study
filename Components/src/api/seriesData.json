@@ -2,7 +2,7 @@
     {
       "id": 1,
       "name": "Queen of Tears",
-      "rating": 8.2,
+      "rating": 9.9,
       "description": "A story about Queen , who has beautiful girl.",
       "genre": "RomCom",
       "cast": "Priyalion , Suriyan si kerry",
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "name": "Jungle Run",
-      "rating": 7.5,
+      "rating": 8.5,
       "description": "A story of man how to fight with snake  and save life.",
       "genre": "Story of Leeon chan un biong",
       "cast": "Karlio un be nikln ,Sifing yaon",
@@ -20,7 +20,7 @@
       "watch_url": "https://example.com/watch/series-2"
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Khaufnaak Rooh",
         "rating": 7.5,
         "description": "A story of two girl relationship.",
@@ -30,9 +30,9 @@
         "watch_url": "https://example.com/watch/series-2"
       },
       {
-        "id": 2,
+        "id": 4,
         "name": "Smile",
-        "rating": 7.5,
+        "rating": 9.8,
         "description": "A story about navigating tense relationships.",
         "genre": "Drama and Love story",
         "cast": "jusuff si kolsko , kelliya un diol",
@@ -40,9 +40,9 @@
         "watch_url": "https://example.com/watch/series-2"
       },
       {
-        "id": 2,
+        "id": 5,
         "name": "Blood Mary",
-        "rating": 7.5,
+        "rating": 8.7,
         "description": "A story of two girl , which one make monester.",
         "genre": "Horror and Drama",
         "cast": "Suffia qurodila, kolila ji monta",
@@ -50,9 +50,9 @@
         "watch_url": "https://example.com/watch/series-2"
       },
       {
-        "id": 2,
+        "id": 6,
         "name": "Munja",
-        "rating": 7.5,
+        "rating": 6.5,
         "description": "Very dangerous fil and its like.",
         "genre": "Horror and Romantic",
         "cast": "Raiysa raong , urila deo lan",
@@ -60,9 +60,9 @@
         "watch_url": "https://example.com/watch/series-2"
       },
       {
-        "id": 2,
+        "id": 7,
         "name": "Night of the Hunted",
-        "rating": 7.5,
+        "rating": 9.5,
         "description": "Mostely people like this.",
         "genre": "Drama amd Horror",
         "cast": "Actor johndino loan, suffinaliya",
