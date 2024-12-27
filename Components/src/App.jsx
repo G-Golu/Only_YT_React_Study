@@ -65,8 +65,16 @@ export const App = () => {
 
 
 import NetflixSeries from "./Components/NetflixSeries";
+import "./Components/Netflix.css";
 export const App = () => {
-  return <NetflixSeries />;
+  return (
+    <section className="container">
+      <h1 className="card-heading">List of Best NetflixSeries</h1>
+      <NetflixSeries/>;
+      </section>
+    
+  );
+ 
 };
       
 
