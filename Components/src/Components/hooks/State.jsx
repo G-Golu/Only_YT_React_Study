@@ -7,7 +7,7 @@ export const State = () => {
   console.log("Parent Component render");
 
   const handleButtonClick = () => {
-    setCount((prevCount) => prevCount + 1);
+    setCount(() => count + 1);
   };
 
   return (

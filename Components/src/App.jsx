@@ -86,7 +86,7 @@ export const App = () => {
       
       return ( <section className="container">
         <State />
-        <Sibling/>
+       {/*  <Sibling/> */}
       </section>
 
     );
@@ -95,14 +95,15 @@ export const App = () => {
 };
 
 
+{/*
 export function Sibling(){
   console.log("Child Component rendered");
   return(
   <div className="main-div">
-    <h2>Child Component </h2>
+    <h2>Sibling Component </h2>
     </div>
   );
 }
 
-
+*/}
 
