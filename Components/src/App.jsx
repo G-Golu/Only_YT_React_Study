@@ -81,12 +81,14 @@ export const App = () => {
     
     
     import "./Components/EV.css";
-    import {  State } from "./Components/hooks/State";
+import { DerivedState } from "./Components/hooks/DericedState";
+    //import {  State } from "./Components/hooks/State";
     export const App = () => {
       
       return ( <section className="container">
-        <State />
+       {/*   <State />*/}
        {/*  <Sibling/> */}
+       <DerivedState/>
       </section>
 
     );
