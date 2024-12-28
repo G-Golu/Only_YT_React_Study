@@ -63,12 +63,14 @@ export const App = () => {
 
 
 
-import "./Components/EventHandling.jsx";
+//import "./Components/EventHandling.jsx";
 //import NetflixSeries from "./Components/NetflixSeries";
 //import "./Components/Netflix.css";
-import "./Components/Netflix.module.css"
+//import "./Components/Netflix.module.css"
 //import { EventHandling } from "./Components/EventHandling.jsx";
-import { EventProps } from "./Components/EventProps.jsx";
+//import { EventProps } from "./Components/EventProps.jsx";
+import "./Components/EV.css";
+import { EventPropgation } from "./Components/EventPropgation.jsx";
 export const App = () => {
   return (
     <section className="container">
@@ -76,7 +78,8 @@ export const App = () => {
     { /* <NetflixSeries/>; */ }
 
     { /*  <EventHandling/> */ }
-      <EventProps/>
+    { /*  <EventProps/> */ }
+      <EventPropgation/>
       </section>
     
   );
