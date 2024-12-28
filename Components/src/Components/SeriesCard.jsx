@@ -60,7 +60,9 @@ const ratingClass = rating >= 8.5 ? styles.super_hit : styles.average;
             <div>
               <img  src={img_url} alt={name} width="40%" height="40%" style={{ objectFit: "cover" }}  />
             </div>
-            <div className={styles["card-content"]}>
+           {/* <div className={styles["card-content"]}> */}
+           <div className="flex flex-col gap-6 py-6 px-6">
+
 
             {/* Series Details */}
             <h2>Name: {name}</h2>
@@ -71,7 +73,7 @@ const ratingClass = rating >= 8.5 ? styles.super_hit : styles.average;
                  </Rating>
 
 
-            <p>Summary: {description}</p>
+            <p className="text-3xl font-bold underline text-blue-600 ">Summary: {description}</p>
             <p>Genre: {genre}</p>
             <p>Cast: {cast}</p>
   
