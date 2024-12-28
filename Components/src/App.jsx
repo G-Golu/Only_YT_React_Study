@@ -67,14 +67,16 @@ import "./Components/EventHandling.jsx";
 //import NetflixSeries from "./Components/NetflixSeries";
 //import "./Components/Netflix.css";
 import "./Components/Netflix.module.css"
-import { EventHandling } from "./Components/EventHandling.jsx";
+//import { EventHandling } from "./Components/EventHandling.jsx";
+import { EventProps } from "./Components/EventProps.jsx";
 export const App = () => {
   return (
     <section className="container">
        { /* <h1 className="card-heading">List of Best NetflixSeries</h1> */ }
     { /* <NetflixSeries/>; */ }
 
-      <EventHandling/>
+    { /*  <EventHandling/> */ }
+      <EventProps/>
       </section>
     
   );
