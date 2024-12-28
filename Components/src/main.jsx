@@ -3,7 +3,7 @@
 import './index.css'
 import { App } from './App.jsx'
 //import Profile from "/.Components/Profile.jsx";
-import ReactDom from "react-dom";
+import ReactDom from "react-dom/client";
 import React from "react";
 
 
