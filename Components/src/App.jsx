@@ -69,21 +69,40 @@ export const App = () => {
 //import "./Components/Netflix.module.css"
 //import { EventHandling } from "./Components/EventHandling.jsx";
 //import { EventProps } from "./Components/EventProps.jsx";
-import "./Components/EV.css";
-import { EventPropgation } from "./Components/EventPropgation.jsx";
-export const App = () => {
-  return (
-    <section className="container">
+//import "./Components/EV.css";
+//import { EventPropgation } from "./Components/EventPropgation.jsx";
+
        { /* <h1 className="card-heading">List of Best NetflixSeries</h1> */ }
     { /* <NetflixSeries/>; */ }
 
     { /*  <EventHandling/> */ }
     { /*  <EventProps/> */ }
-      <EventPropgation/>
-      </section>
+    { /*  <EventPropgation/> */ }
     
-  );
+    
+    import "./Components/EV.css";
+    import {  State } from "./Components/hooks/State";
+    export const App = () => {
+      
+      return ( <section className="container">
+        <State />
+        <Sibling/>
+      </section>
+
+    );
+    
  
 };
-      
+
+
+export function Sibling(){
+  console.log("Child Component rendered");
+  return(
+  <div className="main-div">
+    <h2>Child Component </h2>
+    </div>
+  );
+}
+
+
 
