@@ -81,7 +81,7 @@ export const App = () => {
     
     
     import "./Components/EV.css";
-import { DerivedState } from "./Components/hooks/DericedState";
+import { DerivedState } from "./Components/hooks/DerivedState";
     //import {  State } from "./Components/hooks/State";
     export const App = () => {
       
