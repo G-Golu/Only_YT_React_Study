@@ -1,0 +1,310 @@
+file name "EV.css "
+//////////////////
+.main-div {
+    /* height: 80vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.g-div {
+    width: 100;
+    height: 50rem;
+    border: 1rem solid #000;
+    background-color: #85c1e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-div {
+    width: 80rem;
+    height: 30rem;
+    border: 1rem solid #000;
+    background-color: #82e0aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.c-div {
+    width: 60rem;
+    height: 10rem;
+    border: 1rem solid #000;
+    background-color: #f7dc6f;
+    font-size: 2re;
+}
+
+events-handling {
+    display: flex;
+}
+
+
+
+
+
+
+
+////////////// NetFlix.Module.Css ///////
+ 
+ .card {
+  box-shadow: rgba(0,0,0,0.05) 0px 6px 24px 0px, 
+    rgba(0,0,0,0.08) 0px 0px 0px 1px;
+}
+
+img {
+    width: 100;
+}
+  
+ /*.card-content {
+    padding: 3.2rem 1.2rem;
+    display: flex;
+    flex-direction: column;  
+    gap: 1.2rem;
+} */
+
+
+
+.card-heading {
+    margin-bottom: 3.2rem;
+}
+
+.super_hit {
+    background-color: #7dcea0;
+}
+
+.average {
+    background-color: #f7dc6f;
+}
+
+
+.rating {
+    padding: 0.3rem 1.8rem;
+    color: #000;
+    margin-left: 1.2rem;
+    border-radius: 100rem;
+    -webkit-border-radius: 100rem;
+    -moz-border-radius: 100rem;
+    -ms-border-radius: 100rem;
+    -o-border-radius: 100rem;
+}
+
+.timepass {
+    border: 2rem solid red;
+} */
+
+
+
+
+
+//////////// ToggleSwitch .cc ///////////
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .toggle-switch {
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #ccc;
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 5rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  
+  .switch {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: transform 0.3s linear, background-color 0.3s linear;
+    border: 0.2rem solid #ccc;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  .on {
+    background-color: #4caf50;
+    transform: translateX(50px);
+    -webkit-transform: translateX(50px);
+    -moz-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    -o-transform: translateX(50px);
+  }
+  
+  .off {
+    background-color: #f44336;
+    transform: translateX(0);
+  }
+  
+  .switch-state {
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+
+
+
+
+
+  ///////////  App.Css ///////////
+
+  /*
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
+
+
+
+
+
+
+
+
+///////////   Index.css ////////////
+
+/* ? This file contains global css styles that apply to the entire application.
+It allows you to define styles that should be applied globally, affecting all components within the app.
+*/
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: "Urbanist", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: var( --heading-color);
+    font-family: "poppins", sans-serif;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+p,
+li,
+a,
+label {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    color: var(--para-color);
+    line-height: 1.5;
+    font-weight: 400;
+
+}
+
+li{
+    list-style: none;;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #0062ff;
+    --supporting-color: #ebf3fe;
+    --font-color : #424242;
+    --bg-color : #ffffff;
+    --heading-color : #000a19;
+    --h-color: #0a043c;
+    --white-color: #ffffff;
+    --test : #070101;
+    --para-color : #504e4d;
+    --bnt-hover-bg-color: #003b99;
+    --btn-box-shadow : $rgba(100,100,111,0.2) 0px 7px 29px 0px;
+
+}
+.container {
+    max-width: 142rem;
+    margin: 0 auto;
+    padding: 9.6rem 2.4rem;
+}
+
+.grid {
+    display : grid;
+    gap: 9.6rem;
+    
+}
+
+.grid-two-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
