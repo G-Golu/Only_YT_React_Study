@@ -81,17 +81,21 @@ export const App = () => {
     
     
     import "./Components/EV.css";
+    import { ToggleSwitch } from "./Projects/ToggleSwitch.jsx";
     //import { DerivedState } from "./Components/hooks/DerivedState";
     //import {  State } from "./Components/hooks/State";
      
-    import { LiftingState } from "./Components/LiftStateUP";
+    //import { LiftingState } from "./Components/LiftStateUP";
+    
      export const App = () => {
       
       return ( <section className="container">
        {/*   <State />*/}
        {/*  <Sibling/> */}
       {/* <DerivedState/>*/}
-       <LiftingState/>
+       {/*<LiftingState/>*/}
+       
+       <ToggleSwitch/>
       </section>
 
     );
