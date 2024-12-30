@@ -53,6 +53,21 @@ export const ToDo = () => {
    }, []);
 
   
+  // ToDo handleDeleteToDo function
+  const handleDeleteToDo = (value) => {
+    console.log(task);
+    console.log(value);
+    const updatedTask = task.filter((curTask) => curTask !== value);
+    setTask(updatedTask);
+  };
+
+// ToDo handleClearToDoData function
+
+const handleClearToDoData = () => {
+    setTask([]);
+};
+  
+  
   
     
     return (
@@ -81,12 +96,15 @@ export const ToDo = () => {
                                 <span>{curTask}</span>
                                 {/** here use in button , icon past */}
                                 <button className="check-btn"><MdCheck /></button>
-                                <button className="delete-btn"><MdDeleteForever /> </button>
+                                <button className="delete-btn" onClick={() =>handleDeleteToDo(curTask)}><MdDeleteForever /> </button>
                                 
                             </li>
                         })
                     }
                 </ul>
+            </section>
+            <section>
+                <button className="clear-btn" onClick={handleClearToDoData}>Clear All</button>
             </section>
         </section>
     );
